@@ -10,18 +10,35 @@ Projet POO L3 S6
 `Itération 1` - *Début :* Lundi 19 Février 2018 | *Fin :* Mardi 20 Février 2018
 <p>=> Création du repository avec un readme</p>
 <p>=> Prit connaissance des règles du jeu</p> 
+<p>=>Versionning</p> 
+<p>=>Diagrammes</p> 
+
    
 `Itération 2` - *Début :* Lundi 26 Février 2018 | *Fin :* 
-<p>Un ouvrier sans ressource et des batiment qui coute rien a construire </p>
+<p>=>Definir les regles de fin d’execution (partie win)</p>
+<p>=>Joueur, Pieces, Ajout de Carte Batiment (Pierre), Ajout Ouvrirer Apprentit </p>
+<p>=>Test</p>
+
       
 `Itération 3` - Lundi 12 Mars 2018
-<p>//TODO</p>
+<p>
+Ajout de Carte Batiment (tuiles), Ajout manoeuvre, compragnon
+Test
+
+</p>
    
 `Itération 4` - Lundi 19 Mars 2018
-<p>//TODO</p>
+<p>
+Serveur
+Ajout de Carte Batiment (bois,savoir), Ajout Maitre
+Test
+</p>
    
 `Itération 5` - Lundi 26 Mars 2018
-<p>//TODO</p>
+<p>
+Ajout Machine
+Test
+</p>
    
 `Itération 6` - Lundi 9 Avril 2018
 <p>//TODO</p>
