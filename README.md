@@ -1,10 +1,10 @@
 # Projet_Batisseurs
 Projet POO L3 S6
 
-**Résumé 
+## Résumé 
 // TODO
 
-***Itérations
+### Itérations
 
    Itération 1 - Lundi 19 Février 2018
    //TODO
