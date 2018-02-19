@@ -21,12 +21,11 @@ Projet POO L3 S6
 
       
 `Itération 3` - Lundi 12 Mars 2018
-<p>
-Ajout de Carte Batiment (tuiles), Ajout manoeuvre, compragnon
-Test
 
-</p>
-   
+<p>=>Ajout de Carte Batiment (tuiles)</p> 
+<p>=>Ajout manoeuvre, compragnon</p> 
+<p>=>Test</p> 
+
 `Itération 4` - Lundi 19 Mars 2018
 <p>
 Serveur
