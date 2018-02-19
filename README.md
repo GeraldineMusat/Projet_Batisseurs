@@ -27,21 +27,19 @@ Projet POO L3 S6
 <p>=>Test</p> 
 
 `Itération 4` - Lundi 19 Mars 2018
-<p>
-Serveur
-Ajout de Carte Batiment (bois,savoir), Ajout Maitre
-Test
-</p>
+<p>=>Serveur</p>
+<p>=>Ajout de Carte Batiment (bois,savoir), Ajout Maitre</p>
+<p>=>Test</p>
+
    
 `Itération 5` - Lundi 26 Mars 2018
-<p>
-Ajout Machine
-Test
-</p>
+<p>=>Serveur </p>
+<p>=>Ajout Machine</p>
+<p>=>Test</p>
    
 `Itération 6` - Lundi 9 Avril 2018
-<p>//TODO</p>
+<p>=>Serveur </p>
    
 `Itération 7` - Lundi 16 Avril 2018
-<p>//TODO</p>
+<p>=>Serveur </p>
    
