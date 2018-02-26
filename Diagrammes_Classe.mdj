@@ -56,8 +56,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 704,
-											"top": -384,
+											"left": 128,
+											"top": -48,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -80,9 +80,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 23,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 191,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -105,9 +111,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 704,
 											"top": -384,
 											"width": 73.67724609375,
+=======
+											"left": 128,
+											"top": -48,
+											"width": 73,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -130,8 +142,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 704,
-											"top": -384,
+											"left": 128,
+											"top": -48,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -149,9 +161,15 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 448,
 									"top": 16,
 									"width": 222.7734375,
+=======
+									"left": 160,
+									"top": 184,
+									"width": 222,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -195,13 +213,19 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 46,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 214,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-nom: String",
+											"text": "+nom: String",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -223,13 +247,27 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 61,
 											"width": 212.7734375,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"text": "-ptsVictoire: int",
+=======
+											"text": "-pointsVictoire: int",
+=======
+											"left": 165,
+											"top": 229,
+											"width": 212,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+ptsVictoire: int",
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -251,13 +289,19 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 76,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 244,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-ecu: int",
+											"text": "+ecu: int",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -279,13 +323,19 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 91,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 259,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-ouvriers[42]: Carte[42]",
+											"text": "+ouvriers[42]: Carte[42]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -307,13 +357,19 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 106,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 274,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-batiments[42]: Carte[42]",
+											"text": "+batiments[42]: Carte[42]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -335,13 +391,19 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 121,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 289,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-machines[8]: Carte[8]",
+											"text": "+machines[8]: Carte[8]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -363,13 +425,27 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 136,
 											"width": 212.7734375,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"text": "-nbsAction: int",
+=======
+											"text": "-nbAction: int",
+=======
+											"left": 165,
+											"top": 304,
+											"width": 212,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+nbsAction: int",
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -383,10 +459,21 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 448,
 									"top": 41,
 									"width": 222.7734375,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 									"height": 113,
+=======
+									"height": 128,
+=======
+									"left": 160,
+									"top": 209,
+									"width": 222,
+									"height": 113,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 									"autoResize": false
 								},
 								{
@@ -417,9 +504,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 159,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 327,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -445,9 +538,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 174,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 342,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -473,9 +572,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 189,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 357,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -501,14 +606,21 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 204,
 											"width": 212.7734375,
+=======
+											"left": 165,
+											"top": 372,
+											"width": 212,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
 											"text": "+envoyerTravailler(ouvrier, batiment)",
 											"horizontalAlignment": 0,
+<<<<<<< HEAD
 											"verticalAlignment": 5
 										},
 										{
@@ -566,6 +678,10 @@
 											"text": "+vendreAction(int)",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
+=======
+											"verticalAlignment": 5,
+											"wordWrap": false
+>>>>>>> parent of f6663d9... Diagramme V2
 										}
 									],
 									"visible": true,
@@ -577,10 +693,17 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 448,
 									"top": 154,
 									"width": 222.7734375,
 									"height": 98,
+=======
+									"left": 160,
+									"top": 322,
+									"width": 222,
+									"height": 68,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"autoResize": false
 								},
 								{
@@ -601,8 +724,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 352,
-									"top": -192,
+									"left": 64,
+									"top": -24,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -625,8 +748,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 352,
-									"top": -192,
+									"left": 64,
+									"top": -24,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -641,10 +764,21 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
+<<<<<<< HEAD
 							"left": 448,
 							"top": 16,
 							"width": 222.7734375,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"height": 236,
+=======
+							"height": 251,
+=======
+							"left": 160,
+							"top": 184,
+							"width": 222,
+							"height": 206,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -708,7 +842,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -304,
+											"left": 160,
 											"top": -272,
 											"width": 0,
 											"height": 13,
@@ -732,7 +866,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 21,
+											"left": 253,
 											"top": 23,
 											"width": 247,
 											"height": 13,
@@ -757,7 +891,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -304,
+											"left": 160,
 											"top": -272,
 											"width": 73.67724609375,
 											"height": 13,
@@ -782,7 +916,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -304,
+											"left": 160,
 											"top": -272,
 											"width": 0,
 											"height": 13,
@@ -801,7 +935,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 16,
+									"left": 248,
 									"top": 16,
 									"width": 257,
 									"height": 25,
@@ -847,13 +981,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 21,
+											"left": 253,
 											"top": 46,
 											"width": 247,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-reserve: ArrayList",
+											"text": "+reserve: ArrayList",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -875,13 +1009,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 21,
+											"left": 253,
 											"top": 61,
 											"width": 247,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-paquetOuvrier: Carte[42]",
+											"text": "+paquetOuvrier: Carte[42]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -903,13 +1037,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 21,
+											"left": 253,
 											"top": 76,
 											"width": 247,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-listCarteOuvrierSelectionnable: Carte[5]",
+											"text": "+listCarteOuvrierSelectionnable: Carte[5]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -931,13 +1065,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 21,
+											"left": 253,
 											"top": 91,
 											"width": 247,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-paquetBatiment: Carte[42]",
+											"text": "+paquetBatiment: Carte[42]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -959,13 +1093,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 21,
+											"left": 253,
 											"top": 106,
 											"width": 247,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-listCarteBatimentSelectionnable: Carte[5]",
+											"text": "+listCarteBatimentSelectionnable: Carte[5]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -987,13 +1121,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 21,
+											"left": 253,
 											"top": 121,
 											"width": 247,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-listJoueur: ArrayList",
+											"text": "+listJoueur: ArrayList",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -1007,7 +1141,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 16,
+									"left": 248,
 									"top": 41,
 									"width": 257,
 									"height": 98,
@@ -1041,13 +1175,18 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 21,
+											"left": 253,
 											"top": 144,
 											"width": 247,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"text": "+GenererPiece()",
+=======
+<<<<<<< HEAD
+											"text": "+genererPiece()",
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -1188,6 +1327,9 @@
 											"autoResize": false,
 											"underline": false,
 											"text": "+setListCarteBatimentSelectionnable()",
+=======
+											"text": "+Operation1()",
+>>>>>>> parent of f6663d9... Diagramme V2
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -1201,10 +1343,18 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 16,
+									"left": 248,
 									"top": 139,
 									"width": 257,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 									"height": 98,
+=======
+<<<<<<< HEAD
+									"height": 113,
+=======
+									"height": 23,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 									"autoResize": false
 								},
 								{
@@ -1225,7 +1375,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": -152,
+									"left": 80,
 									"top": -136,
 									"width": 10,
 									"height": 10,
@@ -1249,7 +1399,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": -152,
+									"left": 80,
 									"top": -136,
 									"width": 10,
 									"height": 10,
@@ -1265,10 +1415,18 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
-							"left": 16,
+							"left": 248,
 							"top": 16,
 							"width": 257,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"height": 221,
+=======
+<<<<<<< HEAD
+							"height": 236,
+=======
+							"height": 146,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -1332,8 +1490,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 32,
-											"top": -16,
+											"left": 352,
+											"top": -176,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -1356,8 +1514,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 285,
-											"top": 295,
+											"left": 445,
+											"top": 215,
 											"width": 154,
 											"height": 13,
 											"autoResize": false,
@@ -1381,9 +1539,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 32,
 											"top": -16,
 											"width": 73.67724609375,
+=======
+											"left": 352,
+											"top": -176,
+											"width": 73,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -1406,8 +1570,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 32,
-											"top": -16,
+											"left": 352,
+											"top": -176,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -1425,8 +1589,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 280,
-									"top": 288,
+									"left": 440,
+									"top": 208,
 									"width": 164,
 									"height": 25,
 									"autoResize": false,
@@ -1471,13 +1635,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 285,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"top": 318,
+=======
+											"top": 333,
+=======
+											"left": 445,
+											"top": 238,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"width": 154,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-ecu: int",
+											"text": "+ecu: int",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -1499,13 +1672,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 285,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"top": 333,
+=======
+											"top": 348,
+=======
+											"left": 445,
+											"top": 253,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"width": 154,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-ressourcesPierre: int",
+											"text": "+ressourcesPierre: int",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -1527,13 +1709,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 285,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"top": 348,
+=======
+											"top": 363,
+=======
+											"left": 445,
+											"top": 268,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"width": 154,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-ressourcesBois: int",
+											"text": "+ressourcesBois: int",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -1555,13 +1746,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 285,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"top": 363,
+=======
+											"top": 378,
+=======
+											"left": 445,
+											"top": 283,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"width": 154,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-ressourcesSavoir: int",
+											"text": "+ressourcesSavoir: int",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -1583,13 +1783,22 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 285,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"top": 378,
+=======
+											"top": 393,
+=======
+											"left": 445,
+											"top": 298,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"width": 154,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-ressourcesTuile: int",
+											"text": "+ressourcesTuile: int",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -1603,8 +1812,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 280,
-									"top": 313,
+									"left": 440,
+									"top": 233,
 									"width": 164,
 									"height": 83,
 									"autoResize": false
@@ -1627,8 +1836,17 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 280,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 									"top": 396,
+=======
+									"top": 411,
+=======
+									"left": 440,
+									"top": 316,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 									"width": 164,
 									"height": 10,
 									"autoResize": false
@@ -1651,8 +1869,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 32,
-									"top": -8,
+									"left": 176,
+									"top": -88,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -1675,8 +1893,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 32,
-									"top": -8,
+									"left": 176,
+									"top": -88,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -1691,8 +1909,8 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
-							"left": 280,
-							"top": 288,
+							"left": 440,
+							"top": 208,
 							"width": 164,
 							"height": 118,
 							"autoResize": false,
@@ -1758,8 +1976,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -528,
-											"top": 400,
+											"left": -112,
+											"top": 208,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -1782,9 +2000,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 133,
 											"top": 487,
 											"width": 173.7607421875,
+=======
+											"left": 341,
+											"top": 391,
+											"width": 152,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -1807,9 +2031,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": -528,
 											"top": 400,
 											"width": 73.67724609375,
+=======
+											"left": -112,
+											"top": 208,
+											"width": 73,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -1832,8 +2062,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -528,
-											"top": 400,
+											"left": -112,
+											"top": 208,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -1851,9 +2081,15 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 128,
 									"top": 480,
 									"width": 183.7607421875,
+=======
+									"left": 336,
+									"top": 384,
+									"width": 162,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -1897,13 +2133,19 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 133,
 											"top": 510,
 											"width": 173.7607421875,
+=======
+											"left": 341,
+											"top": 414,
+											"width": 152,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-enTrainDeTravailler: bool",
+											"text": "+enTrainDeTravailler: bool",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -1917,9 +2159,15 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 128,
 									"top": 505,
 									"width": 183.7607421875,
+=======
+									"left": 336,
+									"top": 409,
+									"width": 162,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"height": 23,
 									"autoResize": false
 								},
@@ -1932,6 +2180,7 @@
 									"model": {
 										"$ref": "AAAAAAFh0fWsfhhhBYo="
 									},
+<<<<<<< HEAD
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
@@ -1990,6 +2239,8 @@
 											"verticalAlignment": 5
 										}
 									],
+=======
+>>>>>>> parent of f6663d9... Diagramme V2
 									"visible": true,
 									"enabled": true,
 									"lineColor": "#000000",
@@ -1999,10 +2250,17 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 128,
 									"top": 528,
 									"width": 183.7607421875,
 									"height": 38,
+=======
+									"left": 336,
+									"top": 432,
+									"width": 162,
+									"height": 10,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"autoResize": false
 								},
 								{
@@ -2023,8 +2281,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": -264,
-									"top": 200,
+									"left": -56,
+									"top": 104,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -2047,8 +2305,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": -264,
-									"top": 200,
+									"left": -56,
+									"top": 104,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -2063,10 +2321,17 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
+<<<<<<< HEAD
 							"left": 128,
 							"top": 480,
 							"width": 183.7607421875,
 							"height": 86,
+=======
+							"left": 336,
+							"top": 384,
+							"width": 162,
+							"height": 58,
+>>>>>>> parent of f6663d9... Diagramme V2
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -2130,8 +2395,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 96,
-											"top": 224,
+											"left": 256,
+											"top": -48,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -2154,9 +2419,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 487,
 											"width": 185,
+=======
+											"left": 533,
+											"top": 351,
+											"width": 127,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2179,9 +2450,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 96,
 											"top": 224,
 											"width": 73.67724609375,
+=======
+											"left": 256,
+											"top": -48,
+											"width": 73,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2204,8 +2481,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 96,
-											"top": 224,
+											"left": 256,
+											"top": -48,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -2223,9 +2500,15 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 448,
 									"top": 480,
 									"width": 195,
+=======
+									"left": 528,
+									"top": 344,
+									"width": 137,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -2269,13 +2552,27 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 510,
 											"width": 185,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"text": "-pointVictoire: int",
+=======
+											"text": "-pointsVictoire: int",
+=======
+											"left": 533,
+											"top": 374,
+											"width": 127,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+pointVictoire",
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2297,6 +2594,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": 453,
 											"top": 525,
 											"width": 185,
@@ -2331,7 +2629,20 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"text": "+estConstruit: bool",
+=======
+											"text": "-estConstruit: bool",
+=======
+											"left": 533,
+											"top": 389,
+											"width": 127,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+listOuvrierTravaillant",
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -2345,10 +2656,17 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 448,
 									"top": 505,
 									"width": 195,
 									"height": 53,
+=======
+									"left": 528,
+									"top": 369,
+									"width": 137,
+									"height": 38,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"autoResize": false
 								},
 								{
@@ -2360,6 +2678,7 @@
 									"model": {
 										"$ref": "AAAAAAFh0fXLLxiLS4I="
 									},
+<<<<<<< HEAD
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
@@ -2446,6 +2765,8 @@
 											"verticalAlignment": 5
 										}
 									],
+=======
+>>>>>>> parent of f6663d9... Diagramme V2
 									"visible": true,
 									"enabled": true,
 									"lineColor": "#000000",
@@ -2455,10 +2776,17 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< HEAD
 									"left": 448,
 									"top": 558,
 									"width": 195,
 									"height": 53,
+=======
+									"left": 528,
+									"top": 407,
+									"width": 137,
+									"height": 10,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"autoResize": false
 								},
 								{
@@ -2479,8 +2807,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 48,
-									"top": 112,
+									"left": 128,
+									"top": -24,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -2503,8 +2831,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 48,
-									"top": 112,
+									"left": 128,
+									"top": -24,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -2519,10 +2847,21 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
+<<<<<<< HEAD
 							"left": 448,
 							"top": 480,
 							"width": 195,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"height": 131,
+=======
+							"height": 146,
+=======
+							"left": 528,
+							"top": 344,
+							"width": 137,
+							"height": 73,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -2586,8 +2925,18 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 32,
 											"top": 384,
+=======
+<<<<<<< HEAD
+											"left": 96,
+											"top": 400,
+=======
+											"left": 224,
+											"top": 32,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -2610,9 +2959,21 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 437,
 											"top": 663,
 											"width": 149.91259765625,
+=======
+<<<<<<< HEAD
+											"left": 469,
+											"top": 671,
+											"width": 150.28076171875,
+=======
+											"left": 533,
+											"top": 487,
+											"width": 148,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2635,9 +2996,20 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 32,
 											"top": 384,
+=======
+<<<<<<< HEAD
+											"left": 96,
+											"top": 400,
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"width": 73.67724609375,
+=======
+											"left": 224,
+											"top": 32,
+											"width": 73,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -2660,8 +3032,18 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 32,
 											"top": 384,
+=======
+<<<<<<< HEAD
+											"left": 96,
+											"top": 400,
+=======
+											"left": 224,
+											"top": 32,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -2679,9 +3061,21 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 									"left": 432,
 									"top": 656,
 									"width": 159.91259765625,
+=======
+<<<<<<< HEAD
+									"left": 464,
+									"top": 664,
+									"width": 160.28076171875,
+=======
+									"left": 528,
+									"top": 480,
+									"width": 158,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -2725,6 +3119,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 437,
 											"top": 686,
 											"width": 149.91259765625,
@@ -2732,6 +3127,25 @@
 											"autoResize": false,
 											"underline": false,
 											"text": "-entrainDeTravailler: bool",
+=======
+<<<<<<< HEAD
+											"left": 469,
+											"top": 694,
+											"width": 150.28076171875,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-enTrainDeTravailler: bool",
+=======
+											"left": 533,
+											"top": 510,
+											"width": 148,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+entrainDeTravailler: bool",
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2753,13 +3167,25 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 437,
 											"top": 701,
 											"width": 149.91259765625,
+=======
+<<<<<<< HEAD
+											"left": 469,
+											"top": 709,
+											"width": 150.28076171875,
+=======
+											"left": 533,
+											"top": 525,
+											"width": 148,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-productionPierre: int",
+											"text": "+productionPierre: int",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2781,13 +3207,25 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 437,
 											"top": 716,
 											"width": 149.91259765625,
+=======
+<<<<<<< HEAD
+											"left": 469,
+											"top": 724,
+											"width": 150.28076171875,
+=======
+											"left": 533,
+											"top": 540,
+											"width": 148,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-productionBois",
+											"text": "+productionBois",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2809,13 +3247,25 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 437,
 											"top": 731,
 											"width": 149.91259765625,
+=======
+<<<<<<< HEAD
+											"left": 469,
+											"top": 739,
+											"width": 150.28076171875,
+=======
+											"left": 533,
+											"top": 555,
+											"width": 148,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-productionSavoir",
+											"text": "+productionSavoir",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -2837,13 +3287,25 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 											"left": 437,
 											"top": 746,
 											"width": 149.91259765625,
+=======
+<<<<<<< HEAD
+											"left": 469,
+											"top": 754,
+											"width": 150.28076171875,
+=======
+											"left": 533,
+											"top": 570,
+											"width": 148,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-productionTuile",
+											"text": "+productionTuile",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -2857,9 +3319,21 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 									"left": 432,
 									"top": 681,
 									"width": 159.91259765625,
+=======
+<<<<<<< HEAD
+									"left": 464,
+									"top": 689,
+									"width": 160.28076171875,
+=======
+									"left": 528,
+									"top": 505,
+									"width": 158,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 									"height": 83,
 									"autoResize": false
 								},
@@ -2872,6 +3346,7 @@
 									"model": {
 										"$ref": "AAAAAAFh0fYMpBi2MTk="
 									},
+<<<<<<< HEAD
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
@@ -2930,6 +3405,8 @@
 											"verticalAlignment": 5
 										}
 									],
+=======
+>>>>>>> parent of f6663d9... Diagramme V2
 									"visible": true,
 									"enabled": true,
 									"lineColor": "#000000",
@@ -2939,10 +3416,23 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 									"left": 432,
 									"top": 764,
 									"width": 159.91259765625,
+=======
+<<<<<<< HEAD
+									"left": 464,
+									"top": 772,
+									"width": 160.28076171875,
+>>>>>>> Stashed changes:Diagramme_class.mdj
 									"height": 38,
+=======
+									"left": 528,
+									"top": 588,
+									"width": 158,
+									"height": 10,
+>>>>>>> parent of f6663d9... Diagramme V2
 									"autoResize": false
 								},
 								{
@@ -2963,8 +3453,18 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 									"left": 16,
 									"top": 192,
+=======
+<<<<<<< HEAD
+									"left": 48,
+									"top": 200,
+=======
+									"left": 112,
+									"top": 16,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -2987,8 +3487,18 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 									"left": 16,
 									"top": 192,
+=======
+<<<<<<< HEAD
+									"left": 48,
+									"top": 200,
+=======
+									"left": 112,
+									"top": 16,
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -3003,10 +3513,23 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"left": 432,
 							"top": 656,
 							"width": 159.91259765625,
+=======
+<<<<<<< HEAD
+							"left": 464,
+							"top": 664,
+							"width": 160.28076171875,
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"height": 161,
+=======
+							"left": 528,
+							"top": 480,
+							"width": 158,
+							"height": 118,
+>>>>>>> parent of f6663d9... Diagramme V2
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -3070,8 +3593,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -208,
-											"top": -928,
+											"left": -736,
+											"top": -512,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -3094,8 +3617,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 325,
-											"top": 95,
+											"left": 61,
+											"top": 303,
 											"width": 64,
 											"height": 13,
 											"autoResize": false,
@@ -3119,9 +3642,15 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
+<<<<<<< HEAD
 											"left": -208,
 											"top": -928,
 											"width": 73.67724609375,
+=======
+											"left": -736,
+											"top": -512,
+											"width": 73,
+>>>>>>> parent of f6663d9... Diagramme V2
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -3144,8 +3673,8 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": -208,
-											"top": -928,
+											"left": -736,
+											"top": -512,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -3163,8 +3692,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 320,
-									"top": 88,
+									"left": 56,
+									"top": 296,
 									"width": 74,
 									"height": 25,
 									"autoResize": false,
@@ -3209,13 +3738,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 325,
-											"top": 118,
+											"left": 61,
+											"top": 326,
 											"width": 64,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-type",
+											"text": "+type",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										},
@@ -3237,13 +3766,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 325,
-											"top": 133,
+											"left": 61,
+											"top": 341,
 											"width": 64,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "-valeur",
+											"text": "+valeur",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -3257,8 +3786,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 320,
-									"top": 113,
+									"left": 56,
+									"top": 321,
 									"width": 74,
 									"height": 38,
 									"autoResize": false
@@ -3281,8 +3810,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 320,
-									"top": 151,
+									"left": 56,
+									"top": 359,
 									"width": 74,
 									"height": 10,
 									"autoResize": false
@@ -3305,8 +3834,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": -104,
-									"top": -464,
+									"left": -368,
+									"top": -256,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -3329,8 +3858,8 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": -104,
-									"top": -464,
+									"left": -368,
+									"top": -256,
 									"width": 10,
 									"height": 10,
 									"autoResize": false
@@ -3345,8 +3874,8 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
-							"left": 320,
-							"top": 88,
+							"left": 56,
+							"top": 296,
 							"width": 74,
 							"height": 73,
 							"autoResize": false,
@@ -3376,11 +3905,23 @@
 							"templateParameterCompartment": {
 								"$ref": "AAAAAAFh0fY0pRjrbDY="
 							}
-						},
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFh0e6CVBe5QEY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "JoueurIA",
+					"visibility": "public",
+					"attributes": [
 						{
-							"_type": "UMLGeneralizationView",
-							"_id": "AAAAAAFh0nGXehrhzW4=",
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFh0gswDRlFkPw=",
 							"_parent": {
+<<<<<<< HEAD
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"model": {
@@ -3512,15 +4053,27 @@
 							},
 							"stereotypeLabel": {
 								"$ref": "AAAAAAFh0nGXexrjPVQ="
+=======
+								"$ref": "AAAAAAFh0e6CVBe5QEY="
+>>>>>>> parent of f6663d9... Diagramme V2
 							},
-							"propertyLabel": {
-								"$ref": "AAAAAAFh0nGXexrkqlY="
-							}
+							"name": "nom",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": "String",
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
 						},
 						{
-							"_type": "UMLGeneralizationView",
-							"_id": "AAAAAAFh0nH3Yxr3GFU=",
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFh0guSNhlMdYg=",
 							"_parent": {
+<<<<<<< HEAD
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"model": {
@@ -3834,6 +4387,12 @@
 							},
 							"name": "ptsVictoire",
 							"visibility": "private",
+=======
+								"$ref": "AAAAAAFh0e6CVBe5QEY="
+							},
+							"name": "ptsVictoire",
+							"visibility": "public",
+>>>>>>> parent of f6663d9... Diagramme V2
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -3851,7 +4410,7 @@
 								"$ref": "AAAAAAFh0e6CVBe5QEY="
 							},
 							"name": "ecu",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -3869,7 +4428,7 @@
 								"$ref": "AAAAAAFh0e6CVBe5QEY="
 							},
 							"name": "ouvriers[42]",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": {
@@ -3890,7 +4449,7 @@
 								"$ref": "AAAAAAFh0e6CVBe5QEY="
 							},
 							"name": "batiments[42]",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": {
@@ -3911,7 +4470,7 @@
 								"$ref": "AAAAAAFh0e6CVBe5QEY="
 							},
 							"name": "machines[8]",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": {
@@ -3931,8 +4490,17 @@
 							"_parent": {
 								"$ref": "AAAAAAFh0e6CVBe5QEY="
 							},
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"name": "nbsAction",
+=======
+<<<<<<< HEAD
+							"name": "nbAction",
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"visibility": "private",
+=======
+							"name": "nbsAction",
+							"visibility": "public",
+>>>>>>> parent of f6663d9... Diagramme V2
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -4034,6 +4602,7 @@
 							"concurrency": "sequential",
 							"isQuery": false,
 							"isAbstract": false
+<<<<<<< HEAD
 						},
 						{
 							"_type": "UMLOperation",
@@ -4098,6 +4667,8 @@
 							"concurrency": "sequential",
 							"isQuery": false,
 							"isAbstract": false
+=======
+>>>>>>> parent of f6663d9... Diagramme V2
 						}
 					],
 					"isAbstract": false,
@@ -4112,7 +4683,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Jeu",
-					"visibility": "private",
+					"visibility": "public",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -4121,7 +4692,7 @@
 								"$ref": "AAAAAAFh0e+sURfjM6w="
 							},
 							"name": "reserve",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "ArrayList",
@@ -4139,7 +4710,7 @@
 								"$ref": "AAAAAAFh0e+sURfjM6w="
 							},
 							"name": "paquetOuvrier",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": {
@@ -4160,7 +4731,7 @@
 								"$ref": "AAAAAAFh0e+sURfjM6w="
 							},
 							"name": "listCarteOuvrierSelectionnable",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": {
@@ -4181,7 +4752,7 @@
 								"$ref": "AAAAAAFh0e+sURfjM6w="
 							},
 							"name": "paquetBatiment",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": {
@@ -4202,7 +4773,7 @@
 								"$ref": "AAAAAAFh0e+sURfjM6w="
 							},
 							"name": "listCarteBatimentSelectionnable",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": {
@@ -4223,7 +4794,7 @@
 								"$ref": "AAAAAAFh0e+sURfjM6w="
 							},
 							"name": "listJoueur",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "ArrayList",
@@ -4242,7 +4813,12 @@
 							"_parent": {
 								"$ref": "AAAAAAFh0e+sURfjM6w="
 							},
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"name": "GenererPiece",
+=======
+<<<<<<< HEAD
+							"name": "genererPiece",
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -4313,6 +4889,9 @@
 								"$ref": "AAAAAAFh0e+sURfjM6w="
 							},
 							"name": "setListCarteBatimentSelectionnable",
+=======
+							"name": "Operation1",
+>>>>>>> parent of f6663d9... Diagramme V2
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -4342,7 +4921,7 @@
 								"$ref": "AAAAAAFh0e+5LxgNIRA="
 							},
 							"name": "ecu",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -4360,7 +4939,7 @@
 								"$ref": "AAAAAAFh0e+5LxgNIRA="
 							},
 							"name": "ressourcesPierre",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -4378,7 +4957,7 @@
 								"$ref": "AAAAAAFh0e+5LxgNIRA="
 							},
 							"name": "ressourcesBois",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -4396,7 +4975,7 @@
 								"$ref": "AAAAAAFh0e+5LxgNIRA="
 							},
 							"name": "ressourcesSavoir",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -4414,7 +4993,7 @@
 								"$ref": "AAAAAAFh0e+5LxgNIRA="
 							},
 							"name": "ressourcesTuile",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -4438,22 +5017,6 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Ouvrier",
-					"ownedElements": [
-						{
-							"_type": "UMLGeneralization",
-							"_id": "AAAAAAFh0nGXehrfxuo=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fWsfhhhBYo="
-							},
-							"source": {
-								"$ref": "AAAAAAFh0fWsfhhhBYo="
-							},
-							"target": {
-								"$ref": "AAAAAAFh0e+5LxgNIRA="
-							},
-							"visibility": "public"
-						}
-					],
 					"visibility": "public",
 					"attributes": [
 						{
@@ -4463,7 +5026,7 @@
 								"$ref": "AAAAAAFh0fWsfhhhBYo="
 							},
 							"name": "enTrainDeTravailler",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "bool",
@@ -4473,54 +5036,6 @@
 							"isDerived": false,
 							"aggregation": "none",
 							"isID": false
-						}
-					],
-					"operations": [
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFh0ljtvRp8c4Q=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fWsfhhhBYo="
-							},
-							"name": "setEnTrainDeTravailler",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFh0lklTBqDMAg=",
-									"_parent": {
-										"$ref": "AAAAAAFh0ljtvRp8c4Q="
-									},
-									"name": "bool",
-									"visibility": "public",
-									"isStatic": false,
-									"isLeaf": false,
-									"type": "",
-									"isReadOnly": false,
-									"isOrdered": false,
-									"isUnique": false,
-									"direction": "in"
-								}
-							],
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFh0nQjpRsc0bY=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fWsfhhhBYo="
-							},
-							"name": "getEnTrainDeTravailler",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
 						}
 					],
 					"isAbstract": false,
@@ -4535,22 +5050,6 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Batiment",
-					"ownedElements": [
-						{
-							"_type": "UMLGeneralization",
-							"_id": "AAAAAAFh0nH3YRr1TMY=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fXLLxiLS4I="
-							},
-							"source": {
-								"$ref": "AAAAAAFh0fXLLxiLS4I="
-							},
-							"target": {
-								"$ref": "AAAAAAFh0e+5LxgNIRA="
-							},
-							"visibility": "public"
-						}
-					],
 					"visibility": "public",
 					"attributes": [
 						{
@@ -4559,11 +5058,19 @@
 							"_parent": {
 								"$ref": "AAAAAAFh0fXLLxiLS4I="
 							},
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"name": "pointVictoire",
+=======
+<<<<<<< HEAD
+							"name": "pointsVictoire",
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"visibility": "private",
+=======
+							"name": "pointVictoire",
+							"visibility": "public",
+>>>>>>> parent of f6663d9... Diagramme V2
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "int",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -4578,6 +5085,7 @@
 								"$ref": "AAAAAAFh0fXLLxiLS4I="
 							},
 							"name": "listOuvrierTravaillant",
+<<<<<<< HEAD
 							"visibility": "private",
 							"isStatic": false,
 							"isLeaf": false,
@@ -4596,60 +5104,22 @@
 								"$ref": "AAAAAAFh0fXLLxiLS4I="
 							},
 							"name": "estConstruit",
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"visibility": "public",
+=======
+							"visibility": "private",
+=======
+							"visibility": "public",
+>>>>>>> parent of f6663d9... Diagramme V2
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"isStatic": false,
 							"isLeaf": false,
-							"type": "bool",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
 							"isDerived": false,
 							"aggregation": "none",
 							"isID": false
-						}
-					],
-					"operations": [
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFh0n6EzhtDF4Y=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fXLLxiLS4I="
-							},
-							"name": "getPointVictoire",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFh0n7tqBtK+UI=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fXLLxiLS4I="
-							},
-							"name": "getEstConstruit",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFh0n8+HRtTnCU=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fXLLxiLS4I="
-							},
-							"name": "setEstConstruit",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
 						}
 					],
 					"isAbstract": false,
@@ -4664,22 +5134,6 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Machine",
-					"ownedElements": [
-						{
-							"_type": "UMLGeneralization",
-							"_id": "AAAAAAFh0nIbGBsHWV4=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fYMpBi2MTk="
-							},
-							"source": {
-								"$ref": "AAAAAAFh0fYMpBi2MTk="
-							},
-							"target": {
-								"$ref": "AAAAAAFh0fXLLxiLS4I="
-							},
-							"visibility": "public"
-						}
-					],
 					"visibility": "public",
 					"attributes": [
 						{
@@ -4688,8 +5142,17 @@
 							"_parent": {
 								"$ref": "AAAAAAFh0fYMpBi2MTk="
 							},
+<<<<<<< Updated upstream:Diagrammes_Classe.mdj
 							"name": "entrainDeTravailler",
+=======
+<<<<<<< HEAD
+							"name": "enTrainDeTravailler",
+>>>>>>> Stashed changes:Diagramme_class.mdj
 							"visibility": "private",
+=======
+							"name": "entrainDeTravailler",
+							"visibility": "public",
+>>>>>>> parent of f6663d9... Diagramme V2
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "bool",
@@ -4707,7 +5170,7 @@
 								"$ref": "AAAAAAFh0fYMpBi2MTk="
 							},
 							"name": "productionPierre",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "int",
@@ -4725,7 +5188,7 @@
 								"$ref": "AAAAAAFh0fYMpBi2MTk="
 							},
 							"name": "productionBois",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "",
@@ -4743,7 +5206,7 @@
 								"$ref": "AAAAAAFh0fYMpBi2MTk="
 							},
 							"name": "productionSavoir",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "",
@@ -4761,7 +5224,7 @@
 								"$ref": "AAAAAAFh0fYMpBi2MTk="
 							},
 							"name": "productionTuile",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "",
@@ -4771,36 +5234,6 @@
 							"isDerived": false,
 							"aggregation": "none",
 							"isID": false
-						}
-					],
-					"operations": [
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFh0llvCRqFXY0=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fYMpBi2MTk="
-							},
-							"name": "setEnTrainDeTravailler",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFh0nSLjBsjZHU=",
-							"_parent": {
-								"$ref": "AAAAAAFh0fYMpBi2MTk="
-							},
-							"name": "getEnTrainDeTravailler",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
 						}
 					],
 					"isAbstract": false,
@@ -4824,7 +5257,7 @@
 								"$ref": "AAAAAAFh0fY0pBjgjJA="
 							},
 							"name": "type",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "",
@@ -4842,7 +5275,7 @@
 								"$ref": "AAAAAAFh0fY0pBjgjJA="
 							},
 							"name": "valeur",
-							"visibility": "private",
+							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
 							"type": "",
