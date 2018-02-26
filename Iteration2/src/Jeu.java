@@ -106,33 +106,37 @@ public abstract class Jeu {
             System.out.println("2 : Recruter un ouvrier");
             System.out.println("3 : Envoyer travailler un ouvrier");
             System.out.println("4 : Prendre un ou plusieurs écus");
-            System.out.println("5 : Acheter actions");
+            //System.out.println("5 : Acheter actions");
             System.out.println("6 : Passer tour");
             Scanner choix = new Scanner(System.in);
-            switch (choix.nextLine()){
-                case "1":
-                    System.out.println("1");
-                    break;
-                case "2":
-                    System.out.println("2");
-                    break;
-                case "3":
-                    System.out.println("3");
-                    break;
-                case "4":
-                    System.out.println("4");
-                    break;
-                case "5":
-                    System.out.println("5");
-                    break;
-                case "6":
-                    System.out.println("6 : Passer tour");
-                    tourPasse = joueur.passerTour();
-                    break;
+            String numeroChoix = choix.nextLine();
+            if(joueur.getNbAction() > 0) {
+                switch (numeroChoix) {
+                    case "1":
+                        System.out.println("1");
+                        break;
+                    case "2":
+                        System.out.println("2");
+                        break;
+                    case "3":
+                        System.out.println("3");
+                        break;
+                    case "4":
+                        System.out.println("4");
+                        break;
+                }
+                joueur.utiliserAction();
+            }else{
+                System.out.println("Pas assez de PA, Voulez vous acheter des PA ? (5)");
+                if(numeroChoix.equals("5")) {
+                    System.out.println("PA Acheté");
+                    joueur.acheterAction(1);
+                }
+
             }
-            joueur.utiliserAction();
-            if(joueur.getNbAction() == 0)
+            if(numeroChoix.equals("6"))
                 tourPasse = joueur.passerTour();
+
         }
     }
 

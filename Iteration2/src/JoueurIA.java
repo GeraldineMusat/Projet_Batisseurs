@@ -29,7 +29,7 @@ public class JoueurIA {
     public void utiliserAction() { nbAction--; }
 
     public void acheterAction(int n){
-
+        this.nbAction = n;
     }
 
     public void vendreAction(int n){
