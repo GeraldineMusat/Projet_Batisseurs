@@ -16,9 +16,9 @@ public class JoueurIA {
     public String toString(){
         return "nom : " + this.nom
                + "\n Actions restantes : " +this.nbsAction
-                + "\n Actions restantes : " +this.ecu
-                + "\n Actions restantes : " +this.ptsVictoire
-                + "\n Actions restantes : " +this.ouvriers
-                + "\n Actions restantes : " +this.batiments;
+                + "\n Ecus : " +this.ecu
+                + "\n PtsVictoire : " +this.ptsVictoire
+                + "\n ListOuvriers : " +this.ouvriers
+                + "\n ListBatiments : " +this.batiments;
     }
 }
