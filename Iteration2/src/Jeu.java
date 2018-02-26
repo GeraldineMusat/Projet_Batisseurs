@@ -13,7 +13,7 @@ public abstract class Jeu {
 
     static ArrayList<JoueurIA> listeJoueurs = new ArrayList<JoueurIA>(); 			// taille max = 4
 
-    static boolean dernierTour;
+    static boolean dernierTour = true;
 
 
     static void genererReserve(){
@@ -25,13 +25,13 @@ public abstract class Jeu {
 
     static void genererPaquetOuvriers(){
         for(int i=0; i<10; i++) {
-            paquetOuvriers.add(new Ouvrier("ouvrier",0,0,0,0,0));
+            paquetOuvriers.add(new Ouvrier("ouvrier"+(i+1),0,0,0,0,0));
         }
     }
 
     static void genererPaquetChantiers(){
         for(int i=0; i<10; i++) {
-            paquetChantiers.add(new Batiment("batiment",0,0,0,0,0));
+            paquetChantiers.add(new Batiment("batiment"+(i+1),0,0,0,0,0));
         }
     }
 
@@ -77,17 +77,12 @@ public abstract class Jeu {
         System.out.println("Les batisseurs");
         Jeu.addJoueur(new JoueurIA("Sebastien"));
         Jeu.addJoueur(new JoueurIA("Alexandra"));
-        // 1
         genererPaquetChantiers();
         setListeChantiersSelectionnables();
-        // 2
         genererPaquetOuvriers();
         // distribuer des Ouvriers Apprentis
-        // 3
         setListeOuvriersSelectionnables();
-        // 4
         genererReserve();
-        // 5
         for(int i=0; i<listeJoueurs.size(); i++) {
             try {
                 attribuerPieces(listeJoueurs.get(i));
@@ -101,49 +96,138 @@ public abstract class Jeu {
     static void jouer(JoueurIA joueur){
         boolean tourPasse = false;
         while(!tourPasse){
-            System.out.println("Il vous reste "+joueur.getNbAction()+" actions.");
-            System.out.println("1 : Ouvrir un chantier");
-            System.out.println("2 : Recruter un ouvrier");
-            System.out.println("3 : Envoyer travailler un ouvrier");
-            System.out.println("4 : Prendre un ou plusieurs écus");
-            //System.out.println("5 : Acheter actions");
-            System.out.println("6 : Passer tour");
             Scanner choix = new Scanner(System.in);
-            String numeroChoix = choix.nextLine();
             if(joueur.getNbAction() > 0) {
-                switch (numeroChoix) {
+                System.out.println("Il vous reste "+joueur.getNbAction()+" actions.");
+                System.out.println("1 : Ouvrir un chantier");
+                System.out.println("2 : Recruter un ouvrier");
+                System.out.println("3 : Envoyer travailler un ouvrier");
+                System.out.println("4 : Prendre un ou plusieurs écus");
+                switch (choix.nextLine()) {
                     case "1":
-                        System.out.println("1");
+                        System.out.println("Choisir le chantier a ouvrir :");
+                        if(piocherChantier(joueur)) {
+                            joueur.utiliserAction();
+                            System.out.println(joueur);
+                        }
                         break;
                     case "2":
-                        System.out.println("2");
+                        System.out.println("Choisir l'ouvrier a recruter :");
+                        if(piocherOuvrier(joueur)){
+                            joueur.utiliserAction();
+                            System.out.println(joueur);
+                        }
                         break;
                     case "3":
-                        System.out.println("3");
+                        System.out.println("Choisir l'ouvrier a envoyer travailler :");
+                        joueur.utiliserAction();
                         break;
                     case "4":
-                        System.out.println("4");
+                        System.out.println("Choisir le nombre d'ecus a prendre :");
                         break;
+                    default:
+                        System.out.println("Choix non valide");
                 }
-                joueur.utiliserAction();
-            }else{
-                System.out.println("Pas assez de PA, Voulez vous acheter des PA ? (5)");
-                if(numeroChoix.equals("5")) {
-                    System.out.println("PA Acheté");
-                    joueur.acheterAction(1);
-                }
-
             }
-            if(numeroChoix.equals("6"))
-                tourPasse = joueur.passerTour();
-
+            else{
+                System.out.println("Vous n'avez plus de point d'action. Que voulez-vous faire ?");
+                System.out.println("1 : Acheter une action");
+                System.out.println("2 : Finir le tour");
+                String monChoix = choix.nextLine();
+                if(monChoix.equals("1")){
+                    joueur.acheterAction(1);
+                    System.out.println("Vous avez achete une action.");
+                }
+                else if(monChoix.equals("2")){
+                    System.out.println("Vous avez fini votre tour.");
+                    tourPasse = joueur.passerTour();
+                }
+                else
+                    System.out.println("Choix non valide");
+            }
         }
+    }
+
+    private static boolean piocherChantier(JoueurIA joueur) {
+        for(int i=0; i<listeChantiersSelectionnables.size(); i++)
+            System.out.println((i+1)+" : "+listeChantiersSelectionnables.get(i).toString());
+        Scanner choix = new Scanner(System.in);
+        switch(choix.nextLine()) {
+            case "1":
+                joueur.choisirChantier((Batiment)listeChantiersSelectionnables.get(0));
+                listeChantiersSelectionnables.remove(0);
+                break;
+            case "2":
+                joueur.choisirChantier((Batiment)listeChantiersSelectionnables.get(1));
+                listeChantiersSelectionnables.remove(1);
+                break;
+            case "3":
+                joueur.choisirChantier((Batiment)listeChantiersSelectionnables.get(2));
+                listeChantiersSelectionnables.remove(2);
+                break;
+            case "4":
+                joueur.choisirChantier((Batiment)listeChantiersSelectionnables.get(3));
+                listeChantiersSelectionnables.remove(3);
+                break;
+            case "5":
+                joueur.choisirChantier((Batiment)listeChantiersSelectionnables.get(4));
+                listeChantiersSelectionnables.remove(4);
+                break;
+            default:
+                System.out.println("Choix non valide");
+                return false;
+        }
+        setListeChantiersSelectionnables();
+        return true;
+    }
+
+    private static boolean piocherOuvrier(JoueurIA joueur) {
+        for(int i=0; i<listeOuvriersSelectionnables.size(); i++)
+            System.out.println((i+1)+" : "+listeOuvriersSelectionnables.get(i).toString());
+        Scanner choix = new Scanner(System.in);
+        switch(choix.nextLine()) {
+            case "1":
+                joueur.choisirOuvrier((Ouvrier)listeOuvriersSelectionnables.get(0));
+                listeOuvriersSelectionnables.remove(0);
+                break;
+            case "2":
+                joueur.choisirOuvrier((Ouvrier)listeOuvriersSelectionnables.get(1));
+                listeOuvriersSelectionnables.remove(1);
+                break;
+            case "3":
+                joueur.choisirOuvrier((Ouvrier)listeOuvriersSelectionnables.get(2));
+                listeOuvriersSelectionnables.remove(2);
+                break;
+            case "4":
+                joueur.choisirOuvrier((Ouvrier)listeOuvriersSelectionnables.get(3));
+                listeOuvriersSelectionnables.remove(3);
+                break;
+            case "5":
+                joueur.choisirOuvrier((Ouvrier)listeOuvriersSelectionnables.get(4));
+                listeOuvriersSelectionnables.remove(4);
+                break;
+            default:
+                System.out.println("Choix non valide");
+                return false;
+        }
+        setListeOuvriersSelectionnables();
+        return true;
     }
 
     public static void main(String[] args) {
         Jeu.initPartie();
-        System.out.println(Jeu.listeJoueurs.toString());
-        Jeu.jouer(Jeu.listeJoueurs.get(0));
+        //System.out.println(Jeu.listeJoueurs.toString());
+
+        JoueurIA joueurActuel;
+        while(!dernierTour) {
+            for(int i=0; i<Jeu.listeJoueurs.size(); i++){
+                joueurActuel = Jeu.listeJoueurs.get(i);
+                System.out.println("C'est au tour de "+joueurActuel.getNom()+" de jouer.");
+                System.out.println(joueurActuel);
+                Jeu.jouer(joueurActuel);
+            }
+        }
+        System.out.println("Fin de la partie.");
     }
 
 

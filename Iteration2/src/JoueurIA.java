@@ -2,9 +2,10 @@ import java.util.ArrayList;
 
 public class JoueurIA {
     private String nom = "";
-    private int ptsVictoire = 0;
+    private int pointsVictoire = 0;
     private ArrayList<Piece> ecus = new ArrayList<Piece>();
     private ArrayList<Carte> ouvriers = new ArrayList<Carte>();
+    private ArrayList<Carte> chantiers = new ArrayList<Carte>();
     private ArrayList<Carte> batiments = new ArrayList<Carte>();
     private ArrayList<Carte> machines = new ArrayList<Carte>();
     private int nbAction = 3;
@@ -13,12 +14,11 @@ public class JoueurIA {
         this.nom = s;
     }
 
-    public void tirerOuvrier(Ouvrier o){
-        this.ouvriers.add(o);
-    }
+    public String getNom() { return nom; }
 
-    public void tirerBatiment(Batiment b){
-
+    public void choisirOuvrier(Ouvrier o){ this.ouvriers.add(o); }
+    public void choisirChantier(Batiment b){
+        chantiers.add(b);
     }
 
     public void envoyerTravailler(Ouvrier o, Batiment b){
@@ -27,6 +27,8 @@ public class JoueurIA {
 
     public int getNbAction() { return nbAction; }
     public void utiliserAction() { nbAction--; }
+
+    public int getPointsVictoire() { return pointsVictoire; }
 
     public void acheterAction(int n){
         this.nbAction = n;
@@ -55,11 +57,11 @@ public class JoueurIA {
     }
 
     public String toString(){
-        return "nom : " + this.nom
-               + "\n Actions restantes : " +this.nbAction
-                + "\n Ecus : " +this.ecus
-                + "\n PtsVictoire : " +this.ptsVictoire
-                + "\n ListOuvriers : " +this.ouvriers
-                + "\n ListBatiments : " +this.batiments;
+        return this.nom+" : PA=" +this.nbAction
+                +", ecus="+this.ecus
+                +", PV="+this.pointsVictoire
+                +", ouvriers="+this.ouvriers
+                +", chantiers="+this.chantiers
+                +", batiments="+this.batiments;
     }
 }

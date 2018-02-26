@@ -14,4 +14,8 @@ public abstract class Carte {
         this.ressourcesTuile = rt;
         this.ecu = ecu;
     }
+
+    public String toString() {
+        return nom;
+    }
 }
