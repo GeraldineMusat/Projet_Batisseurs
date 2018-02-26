@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public abstract class Jeu {
 
@@ -97,9 +98,48 @@ public abstract class Jeu {
         dernierTour = false;
     }
 
+    static void jouer(JoueurIA joueur){
+        boolean tourPasse = false;
+        while(!tourPasse){
+            System.out.println("Il vous reste "+joueur.getNbAction()+" actions.");
+            System.out.println("1 : Ouvrir un chantier");
+            System.out.println("2 : Recruter un ouvrier");
+            System.out.println("3 : Envoyer travailler un ouvrier");
+            System.out.println("4 : Prendre un ou plusieurs écus");
+            System.out.println("5 : Acheter actions");
+            System.out.println("6 : Passer tour");
+            Scanner choix = new Scanner(System.in);
+            switch (choix.nextLine()){
+                case "1":
+                    System.out.println("1");
+                    break;
+                case "2":
+                    System.out.println("2");
+                    break;
+                case "3":
+                    System.out.println("3");
+                    break;
+                case "4":
+                    System.out.println("4");
+                    break;
+                case "5":
+                    System.out.println("5");
+                    break;
+                case "6":
+                    System.out.println("6 : Passer tour");
+                    tourPasse = joueur.passerTour();
+                    break;
+            }
+            joueur.utiliserAction();
+            if(joueur.getNbAction() == 0)
+                tourPasse = joueur.passerTour();
+        }
+    }
+
     public static void main(String[] args) {
         Jeu.initPartie();
         System.out.println(Jeu.listeJoueurs.toString());
+        Jeu.jouer(Jeu.listeJoueurs.get(0));
     }
 
 

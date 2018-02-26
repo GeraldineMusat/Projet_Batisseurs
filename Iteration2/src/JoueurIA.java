@@ -7,7 +7,7 @@ public class JoueurIA {
     private ArrayList<Carte> ouvriers = new ArrayList<Carte>();
     private ArrayList<Carte> batiments = new ArrayList<Carte>();
     private ArrayList<Carte> machines = new ArrayList<Carte>();
-    private int nbsAction = 3;
+    private int nbAction = 3;
 
     public JoueurIA(String s){
         this.nom = s;
@@ -24,6 +24,9 @@ public class JoueurIA {
     public void envoyerTravailler(Ouvrier o, Batiment b){
 
     }
+
+    public int getNbAction() { return nbAction; }
+    public void utiliserAction() { nbAction--; }
 
     public void acheterAction(int n){
 
@@ -47,9 +50,13 @@ public class JoueurIA {
 
     }
 
+    public boolean passerTour() {
+        return true;
+    }
+
     public String toString(){
         return "nom : " + this.nom
-               + "\n Actions restantes : " +this.nbsAction
+               + "\n Actions restantes : " +this.nbAction
                 + "\n Ecus : " +this.ecus
                 + "\n PtsVictoire : " +this.ptsVictoire
                 + "\n ListOuvriers : " +this.ouvriers
