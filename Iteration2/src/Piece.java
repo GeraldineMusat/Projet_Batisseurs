@@ -14,6 +14,6 @@ public class Piece {
     }
 
     public String toString(){
-        return "Type : " + this.type + "\n Valeur : "  + this.valeur;
+        return "Type : " + this.type + " Valeur : "  + this.valeur + "\n";
     }
 }

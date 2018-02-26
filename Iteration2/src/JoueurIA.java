@@ -3,14 +3,42 @@ import java.util.ArrayList;
 public class JoueurIA {
     private String nom = "";
     private int ptsVictoire = 0;
-    private ArrayList ecu = new ArrayList();
-    private ArrayList ouvriers = new ArrayList();
-    private ArrayList batiments = new ArrayList();
-    private ArrayList machines = new ArrayList();
+    private ArrayList<Piece> ecu = new ArrayList<Piece>();
+    private ArrayList<Carte> ouvriers = new ArrayList<Carte>();
+    private ArrayList<Carte> batiments = new ArrayList<Carte>();
+    private ArrayList<Carte> machines = new ArrayList<Carte>();
     private int nbsAction = 3;
 
     public JoueurIA(String s){
         this.nom = s;
+    }
+
+    public void tirerOuvrier(Ouvrier o){
+        this.ouvriers.add(o);
+    }
+
+    public void tirerBatiment(Batiment b){
+
+    }
+
+    public void envoyerTravailler(Ouvrier o, Batiment b){
+
+    }
+
+    public void acheterAction(int n){
+
+    }
+
+    public void vendreAction(int n){
+
+    }
+
+    public void setEcu(){
+
+    }
+
+    public void getEcu(){
+
     }
 
     public String toString(){
