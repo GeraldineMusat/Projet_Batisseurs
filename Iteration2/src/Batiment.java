@@ -23,11 +23,10 @@ public class Batiment extends Carte {
     }
 
     public void ajouterUnOuvrier(Ouvrier o) throws Throwable {
-        if(o.getEstEnTrainDeTravailler()){
+        if(!o.getEstEnTrainDeTravailler()){
             this.listOuvrierTravaillant.add(o);
         }else{
             throw new Throwable("Ouvrier travaillant deja sur un autre batiment");
         }
-
     }
 }

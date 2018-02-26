@@ -120,10 +120,13 @@ public abstract class Jeu {
                         break;
                     case "3":
                         System.out.println("Choisir l'ouvrier a envoyer travailler :");
+                        joueur.envoyerTravailler();
                         joueur.utiliserAction();
+                        System.out.println(joueur);
                         break;
                     case "4":
-                        System.out.println("Choisir le nombre d'ecus a prendre :");
+                        //System.out.println("Choisir le nombre d'ecus a prendre :");
+                        System.out.println("Indisponible dans cette iteration car l'argent n'est pas encore pris en compte");
                         break;
                     default:
                         System.out.println("Choix non valide");
