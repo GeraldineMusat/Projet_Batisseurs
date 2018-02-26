@@ -15,7 +15,7 @@ public abstract class Jeu {
 
 
 
-    static void genererPieces(){
+    static void genererReserve(){
     	for(int i=0; i<15; i++)
     		reserve.add(new Piece(enumTypePiece.OR));		// créer 15 pièces d'or
     	for(int j=0; j<25; j++)
@@ -26,7 +26,7 @@ public abstract class Jeu {
 
     }
 
-    static void genererPaquetBatiment(){
+    static void genererPaquetChantiers(){
 
     }
 
@@ -48,20 +48,54 @@ public abstract class Jeu {
         }
     }
 
-    static void attribuerPieces(JoueurIA j){
-
+    static void attribuerPieces(JoueurIA joueur) throws Throwable {
+        // attribuer une pièce d'or :
+        Piece piece = selectionnerPiece(enumTypePiece.OR);
+        joueur.addEcu(piece);
+        // attribuer 5 pièces d'argent :
+        for(int i=0; i<5; i++){
+            piece = selectionnerPiece(enumTypePiece.ARGENT);
+            joueur.addEcu(piece);
+        }
     }
 
-    static void selectionnerPiece(enumTypePiece type){
-
+    static Piece selectionnerPiece(enumTypePiece type) throws Throwable {
+        Piece piece;
+        for(int i=0; i<reserve.size(); i++) {
+            if (reserve.get(i).getType().equals(type))
+                return reserve.remove(i);
+        }
+        throw new Throwable("Pas de piece de ce type");
     }
 
-
-    public static void main(String[] args) {
+    static void initPartie(){
         System.out.println("Les batisseurs");
         Jeu.addJoueur(new JoueurIA("Sebastien"));
+        Jeu.addJoueur(new JoueurIA("Alexandra"));
+        // 1
+        genererPaquetChantiers();
+        setListeChantiersSelectionnables();
+        // 2
+        genererPaquetOuvriers();
+        // distribuer des Ouvriers Apprentis
+        // 3
+        setListeOuvriersSelectionnables();
+        // 4
+        genererReserve();
+        // 5
+        for(int i=0; i<listeJoueurs.size(); i++) {
+            try {
+                attribuerPieces(listeJoueurs.get(i));
+            } catch (Throwable throwable) {
+                throwable.printStackTrace();
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Jeu.initPartie();
+
         System.out.println(Jeu.listeJoueurs.toString());
-        Jeu.genererPieces();
         System.out.println(Jeu.reserve.toString());
     }
 

@@ -12,6 +12,9 @@ public class Piece {
             valeur = 1;
         }
     }
+
+    public enumTypePiece getType(){ return this.type; }
+
     public int getValeur(){
         return this.valeur;
     }
