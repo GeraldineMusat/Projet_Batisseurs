@@ -16,16 +16,6 @@ Projet POO L3 S6
 
    
 `Itération 2` - *Début :* Mardi 20 Février 2018 | *Fin : Lundi 26 Février 2018* 
-<p>=>Diagramme</p> 
-<p>=>Definir les regles de fin d’execution (partie win)</p>
-<p>=>Joueur, Pieces, Ajout de Carte Batiment (Pierre), Ajout Ouvrirer Apprentit </p>
-<p>=>Test</p>
-=======
-<p>=> Prise de connaissance des règles du jeu</p> 
-<p>=> Versionning</p>
-
-   
-`Itération 2` - *Début :* Mardi 20 Février 2018 | *Fin : Lundi 26 Février 2018* 
 <p>=> Diagrammes de classe</p> 
 <p>=> Definir les regles de fin d’execution (partie win)</p>
 <p>=> Implémentation des classes : Partie, Joueur, Piece, Batiment, Ouvrier</p>
