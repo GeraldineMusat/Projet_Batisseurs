@@ -12,7 +12,9 @@ public class Piece {
             valeur = 1;
         }
     }
-
+    public int getValeur(){
+        return this.valeur;
+    }
     public String toString(){
         return "Type : " + this.type + " Valeur : "  + this.valeur + "\n";
     }

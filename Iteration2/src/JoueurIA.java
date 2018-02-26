@@ -37,7 +37,13 @@ public class JoueurIA {
 
     }
 
-    public void getEcu(){
+    public int getEcu(){
+        int sommePiece = 0;
+
+        for(int i = 0; i < this.ecu.size();i++){
+            sommePiece+= this.ecu.get(i).getValeur();
+        }
+        return sommePiece;
 
     }
 
