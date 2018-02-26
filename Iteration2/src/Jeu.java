@@ -23,7 +23,8 @@ public abstract class Jeu {
 
     }
 
-    static void addJoueur(){
+    static void addJoueur(JoueurIA j){
+        listJoueur.add(j);
 
     }
 
@@ -35,8 +36,12 @@ public abstract class Jeu {
 
     }
 
+
     public static void main(String[] args) {
         System.out.println("Les batisseurs");
+        Jeu.addJoueur(new JoueurIA("Sebastien"));
+        System.out.println(Jeu.listJoueur.toString());
+
     }
 
 

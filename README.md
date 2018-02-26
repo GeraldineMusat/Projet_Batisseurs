@@ -13,7 +13,6 @@ Projet POO L3 S6
 <p>=> Prit connaissance des règles du jeu</p> 
 <p>=>Versionning</p> 
 
-
    
 `Itération 2` - *Début :* Mardi 20 Février 2018 | *Fin : Lundi 26 Février 2018* 
 <p>=> Diagrammes de classe</p> 
