@@ -11,10 +11,11 @@ Projet POO L3 S6
 <p>=> Création du repository avec un readme</p>
 <p>=> Prit connaissance des règles du jeu</p> 
 <p>=>Versionning</p> 
-<p>=>Diagramme</p> 
+
 
    
 `Itération 2` - *Début :* Mardi 20 Février 2018 | *Fin : Lundi 26 Février 2018* 
+<p>=>Diagramme</p> 
 <p>=>Definir les regles de fin d’execution (partie win)</p>
 <p>=>Joueur, Pieces, Ajout de Carte Batiment (Pierre), Ajout Ouvrirer Apprentit </p>
 <p>=>Test</p>
