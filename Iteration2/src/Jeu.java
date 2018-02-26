@@ -12,7 +12,7 @@ public abstract class Jeu {
 
     static ArrayList<JoueurIA> listeJoueurs = new ArrayList<JoueurIA>(); 			// taille max = 4
 
-
+    static boolean dernierTour;
 
 
     static void genererReserve(){
@@ -23,11 +23,15 @@ public abstract class Jeu {
     }
 
     static void genererPaquetOuvriers(){
-
+        for(int i=0; i<10; i++) {
+            paquetOuvriers.add(new Ouvrier("ouvrier",0,0,0,0,0));
+        }
     }
 
     static void genererPaquetChantiers(){
-
+        for(int i=0; i<10; i++) {
+            paquetChantiers.add(new Batiment("batiment",0,0,0,0,0));
+        }
     }
 
     static void addJoueur(JoueurIA j){
@@ -90,13 +94,12 @@ public abstract class Jeu {
                 throwable.printStackTrace();
             }
         }
+        dernierTour = false;
     }
 
     public static void main(String[] args) {
         Jeu.initPartie();
-
         System.out.println(Jeu.listeJoueurs.toString());
-        System.out.println(Jeu.reserve.toString());
     }
 
 
