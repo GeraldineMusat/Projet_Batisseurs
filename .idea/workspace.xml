@@ -13,10 +13,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Jeu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Jeu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Iteration2/src/Jeu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="434">
               <caret line="228" column="9" lean-forward="false" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoueurIA.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JoueurIA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Iteration2/src/JoueurIA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -605,7 +605,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11148000" />
+    <option name="totallyTimeSpent" value="11239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="752" extended-state="7" />
@@ -649,7 +649,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -690,26 +692,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Iteration2/src/Jeu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="228" column="9" lean-forward="false" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#135#142#0" expanded="true" />
-            <element signature="e#241#248#0" expanded="true" />
-            <element signature="e#347#354#0" expanded="true" />
-            <element signature="e#465#472#0" expanded="true" />
-            <element signature="e#605#612#0" expanded="true" />
-            <element signature="e#723#733#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="method#piocherChantier#0;class#Jeu#0" expanded="false" />
-            <element signature="method#piocherOuvrier#0;class#Jeu#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,6 +738,26 @@
         <state relative-caret-position="340">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Iteration2/src/Jeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="228" column="9" lean-forward="false" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#135#142#0" expanded="true" />
+            <element signature="e#241#248#0" expanded="true" />
+            <element signature="e#347#354#0" expanded="true" />
+            <element signature="e#465#472#0" expanded="true" />
+            <element signature="e#605#612#0" expanded="true" />
+            <element signature="e#723#733#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="method#piocherChantier#0;class#Jeu#0" expanded="false" />
+            <element signature="method#piocherOuvrier#0;class#Jeu#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
